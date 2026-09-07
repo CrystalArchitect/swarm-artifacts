@@ -1,12 +1,12 @@
-generated_utc: '2026-09-06T18:31:52.881846+00:00'
-total_runs: 171
+generated_utc: '2026-09-07T02:27:06.448001+00:00'
+total_runs: 172
 by_type:
   calibration: 2
   redteam: 13
   single: 71
   study: 33
   sweep: 46
-  unknown: 6
+  unknown: 7
 runs:
 - id: 20260208-214018_baseline_seed42
   slug: baseline_seed42
@@ -1533,6 +1533,12 @@ runs:
   total_runs: 40
   total_configs: 4
 - id: 20260904T225711Z_casestudy_wiki_backchannel_seed0
+  type: unknown
+  tags:
+  - unmigrated
+  date: unknown
+  status: unknown
+- id: 20260907T021617Z_casestudy_wiki_stego
   type: unknown
   tags:
   - unmigrated
