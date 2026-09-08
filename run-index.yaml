@@ -1,11 +1,11 @@
-generated_utc: '2026-09-07T02:27:06.448001+00:00'
-total_runs: 172
+generated_utc: '2026-09-08T01:25:05.381816+00:00'
+total_runs: 174
 by_type:
   calibration: 2
   redteam: 13
   single: 71
   study: 33
-  sweep: 46
+  sweep: 48
   unknown: 7
 runs:
 - id: 20260208-214018_baseline_seed42
@@ -1751,6 +1751,42 @@ runs:
   total_configs: 6
   primary_result: Summaries only; per-seed event files (2.4 GB total) regenerate deterministically
     from code revision + config + seed.
+- id: wiki_mc_confirm_page_e50_sort_last
+  slug: wiki_mc_confirm_page_e50_sort_last
+  type: sweep
+  tags:
+  - sweep
+  - wiki_sim
+  - monte-carlo
+  - confirmation
+  - moderation
+  - page-level
+  - evasion
+  date: '2026-09-08'
+  status: completed
+  total_runs: 2400
+  total_configs: 6
+  primary_result: Summaries only; per-seed event files (~480 MB) regenerate deterministically
+    from code revision + config + seed. contrast_vs_page_e50.json holds the exploratory
+    paired contrast reported in swarm docs/research/wiki-monte-carlo-results.md.
+- id: wiki_mc_confirm_page_e50_sort_last_elig
+  slug: wiki_mc_confirm_page_e50_sort_last_elig
+  type: sweep
+  tags:
+  - sweep
+  - wiki_sim
+  - monte-carlo
+  - confirmation
+  - moderation
+  - page-level
+  - evasion
+  date: '2026-09-08'
+  status: completed
+  total_runs: 2400
+  total_configs: 6
+  primary_result: Summaries only; per-seed event files (~480 MB) regenerate deterministically
+    from code revision + config + seed. contrast_vs_page_e50.json holds the exploratory
+    paired contrast reported in swarm docs/research/wiki-monte-carlo-results.md.
 - id: wiki_mc_pilot_all
   slug: wiki_mc_pilot_all
   type: sweep

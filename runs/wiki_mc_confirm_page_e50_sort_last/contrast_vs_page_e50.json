@@ -1,0 +1,97 @@
+{
+  "baseline": "wiki_mc_confirm_page_e50",
+  "method": "paired two-sided Monte Carlo sign-flip on treatment runs; 5,000 draws",
+  "note": "exploratory; none/random cells identical to baseline by construction",
+  "tests": [
+    {
+      "cell_id": "moderation-002",
+      "metric": "completion_rate",
+      "n": 200,
+      "baseline_mean": 0.9105208333333333,
+      "treated_mean": 0.9105989583333333,
+      "mean_difference": 7.812500000000056e-05,
+      "p_value": 0.383123375324935
+    },
+    {
+      "cell_id": "moderation-002",
+      "metric": "task_success_rate",
+      "n": 200,
+      "baseline_mean": 0.8206510416666667,
+      "treated_mean": 0.8207552083333333,
+      "mean_difference": 0.00010416666666666796,
+      "p_value": 0.0593881223755249
+    },
+    {
+      "cell_id": "moderation-002",
+      "metric": "total_writes",
+      "n": 200,
+      "baseline_mean": 103.645,
+      "treated_mean": 103.655,
+      "mean_difference": 0.01,
+      "p_value": 0.6294741051789642
+    },
+    {
+      "cell_id": "moderation-002",
+      "metric": "displacements",
+      "n": 200,
+      "baseline_mean": 10.605,
+      "treated_mean": 10.605,
+      "mean_difference": 0.0,
+      "p_value": 1.0
+    },
+    {
+      "cell_id": "moderation-002",
+      "metric": "removed_pages",
+      "n": 200,
+      "baseline_mean": 16.41,
+      "treated_mean": 16.59,
+      "mean_difference": 0.18,
+      "p_value": 0.0001999600079984003
+    },
+    {
+      "cell_id": "moderation-003",
+      "metric": "completion_rate",
+      "n": 200,
+      "baseline_mean": 0.9109895833333332,
+      "treated_mean": 0.911015625,
+      "mean_difference": 2.6041666666666296e-05,
+      "p_value": 1.0
+    },
+    {
+      "cell_id": "moderation-003",
+      "metric": "task_success_rate",
+      "n": 200,
+      "baseline_mean": 0.8207552083333333,
+      "treated_mean": 0.8208072916666667,
+      "mean_difference": 5.208333333333426e-05,
+      "p_value": 0.252749450109978
+    },
+    {
+      "cell_id": "moderation-003",
+      "metric": "total_writes",
+      "n": 200,
+      "baseline_mean": 103.68,
+      "treated_mean": 103.685,
+      "mean_difference": 0.005,
+      "p_value": 1.0
+    },
+    {
+      "cell_id": "moderation-003",
+      "metric": "displacements",
+      "n": 200,
+      "baseline_mean": 10.945,
+      "treated_mean": 10.945,
+      "mean_difference": 0.0,
+      "p_value": 1.0
+    },
+    {
+      "cell_id": "moderation-003",
+      "metric": "removed_pages",
+      "n": 200,
+      "baseline_mean": 16.445,
+      "treated_mean": 16.63,
+      "mean_difference": 0.185,
+      "p_value": 0.0001999600079984003
+    }
+  ]
+}
